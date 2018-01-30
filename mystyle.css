@@ -1,7 +1,7 @@
 body {
   background:
      url(bki.jpeg)    /* image */
-     top center / 200px 200px /* position / size */
+     top center / 800px 600px /* position / size */
      no-repeat                /* repeat */
      fixed                    /* attachment */
      padding-box              /* origin */
