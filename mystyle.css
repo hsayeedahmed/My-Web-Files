@@ -1,10 +1,9 @@
-<style>
+body 
+{
+  background: black;
+  color: #80c0c0 }
 p 
 {
- color: red;
+    color: red;
 }
-h1
-{
- color: blue;
-}
-</style>
+
