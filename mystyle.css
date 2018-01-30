@@ -6,7 +6,7 @@ body {
      fixed                    /* attachment */
      padding-box              /* origin */
      content-box              /* clip */
-     red;                     /* color */
+     blue;                     /* color */
 }
 p 
 {
