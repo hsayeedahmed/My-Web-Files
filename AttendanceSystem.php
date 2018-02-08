@@ -213,6 +213,69 @@ mysqli_close($con);
                 <input id="Text3" type="text" value='<?php echo  $AC2_LAB; ?>' /></td>
 
         </tr>
+	  <tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">MP_LAB:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $MP_LAB; ?>' /></td>
+
+        </tr>
+	  <tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">MD_LAB:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $MD_LAB; ?>' /></td>
+
+        </tr>.
+	  <tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">CN_LAB:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $CN_LAB; ?>' /></td>
+
+        </tr>
+	  <tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">CES_LAB:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $CES_LAB; ?>' /></td>
+
+        </tr>
+	  <tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">DBMS_LAB:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $DBMS_LAB; ?>' /></td>
+
+        </tr>
+	  <tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">OS_LAB:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $OS_LAB; ?>' /></td>
+
+        </tr>
+	  <tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">OSP_LAB:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $OSP_LAB; ?>' /></td>
+
+        </tr>
     </table>
 
 </form>
