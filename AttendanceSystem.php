@@ -58,6 +58,18 @@ $OS_LAB= $rowval['OS_LAB'];
 	
 $OSP_LAB= $rowval['OSP_LAB'];
 	
+$OVERALL_SEM1= $rowval['OVERALL_SEM1'];
+	
+$OVERALL_SEM2= $rowval['OVERALL_SEM2'];
+	
+$OVERALL_SEM3= $rowval['OVERALL_SEM3'];
+	
+$OVERALL_SEM4= $rowval['OVERALL_SEM4'];
+	
+$OVERALL_SEM5= $rowval['OVERALL_SEM5'];
+	
+$OVERALL_SEM6= $rowval['OVERALL_SEM6'];
+	
 }
 
 mysqli_close($con);
@@ -276,7 +288,62 @@ mysqli_close($con);
                 <input id="Text3" type="text" value='<?php echo  $OSP_LAB; ?>' /></td>
 
         </tr>
-    </table>
+	  <tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">OVERALL_SEM 1:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $OVERALL_SEM1; ?>' /></td>
+
+        </tr>
+<tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">OVERALL_SEM 2:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $OVERALL_SEM2; ?>' /></td>
+
+        </tr>
+<tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">OVERALL_SEM 3:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $OVERALL_SEM3; ?>' /></td>
+
+        </tr>
+<tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">OVERALL_SEM 4:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $OVERALL_SEM4; ?>' /></td>
+
+        </tr>
+<tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">OVERALL_SEM 5:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $OVERALL_SEM5; ?>' /></td>
+
+        </tr>
+<tr>
+
+             <td style="color:red;background-color:aqua;" class="auto-style3">OVERALL_SEM 6:</td>
+
+            <td class="auto-style4">
+
+                <input id="Text3" type="text" value='<?php echo  $OVERALL_SEM6; ?>' /></td>
+
+        </tr>
+
+	</table>
 
 </form>
 
