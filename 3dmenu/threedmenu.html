@@ -1,1 +1,138 @@
 
+<!doctype html>
+<html>
+<head>
+    <title>Add 3D Menu Effects To Your Website Using Jquery</title>
+    <link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+            <h1 align="center">My Personal Website</h1>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Create Expand Collapse Sliding Menu Using jQuery1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4017969662737344"
+     data-ad-slot="5123120515"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ 
+
+    <section class="demo">
+
+        <dl class="list nigiri">
+            <dt>Home</dt>
+            <dd><a href="https://hsayeedahmed.wordpress.com/">Home</a></dd>
+			<dd><a href="https://hsayeedahmed.wordpress.com/about/">About</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/seo-services-in-gurgaon/">Services</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/web-design-portfolio-gurgaon/">Portfolio</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/submit-guest-post/">Submit Guest Post</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/seo-website-designing-contact/">Contact Us</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/">Home</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/best-seo-company-in-gurgaon-about/">About</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/seo-services-in-gurgaon/">Services</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/web-design-portfolio-gurgaon/">Portfolio</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/submit-guest-post/">Submit Guest Post</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/seo-website-designing-contact/">Contact Us</a></dd>
+        </dl>
+
+        <dl class="list maki">
+            <dt>Online Courses</dt>
+            <dd><a href="https://hsayeedahmed.wordpress.com/page/">All Certificates</a></dd>
+			<dd><a href="https://hsayeedahmed.wordpress.com/alison/">Alison</a></dd>
+			<dd><a href="https://hsayeedahmed.wordpress.com/coursera/">Coursera</a></dd>
+			<dd><a href="https://hsayeedahmed.wordpress.com/cybrary/">Cybrary</a></dd>
+			<dd><a href="https://hsayeedahmed.wordpress.com/edx/">Edx</a></dd>
+			<dd><a href="https://hsayeedahmed.wordpress.com/elsevier/">Elsevier</a></dd>
+			<dd><a href="https://hsayeedahmed.wordpress.com/gcf-learning/">GCF Learning</a></dd>
+			<dd><a href="https://hsayeedahmed.wordpress.com/learnvern/">LearnVern</a></dd>
+			<dd><a href="https://hsayeedahmed.wordpress.com/ranksheet/">Ranksheet</a></dd>
+			<dd><a href="https://hsayeedahmed.wordpress.com/sololearn/">SoloLearn</a></dd>
+			<dd><a href="https://hsayeedahmed.wordpress.com/spoken-tutorial/">Spoken Tutorial</a></dd>
+			<dd><a href="https://hsayeedahmed.wordpress.com/udemy/">Udemy</a></dd>
+	</dl>
+
+        <dl class="list sashimi">
+            <dt>Third Menu</dt>
+            <dd><a href="http://seowebsitedesigning.com/">Home</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/best-seo-company-in-gurgaon-about/">About</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/seo-services-in-gurgaon/">Services</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/web-design-portfolio-gurgaon/">Portfolio</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/submit-guest-post/">Submit Guest Post</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/seo-website-designing-contact/">Contact Us</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/">Home</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/best-seo-company-in-gurgaon-about/">About</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/seo-services-in-gurgaon/">Services</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/web-design-portfolio-gurgaon/">Portfolio</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/submit-guest-post/">Submit Guest Post</a></dd>
+			<dd><a href="http://seowebsitedesigning.com/seo-website-designing-contact/">Contact Us</a></dd>
+        </dl>
+	
+	
+
+
+        <a href="#" class="toggle">Toggle</a>
+
+    </section>
+
+  
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="makisu.js"></script>
+    <script>
+
+        // The `enabled` flag will be `false` if CSS 3D isn't available
+
+        if ( $.fn.makisu.enabled ) {
+
+            var $sashimi = $( '.sashimi' );
+            var $nigiri = $( '.nigiri' );
+            var $maki = $( '.maki' );
+	   
+	    // Create Makisus
+
+            $nigiri.makisu({
+                selector: 'dd',
+                overlap: 0.85,
+                speed: 1.7
+            });
+
+            $maki.makisu({
+                selector: 'dd',
+                overlap: 0.6,
+                speed: 0.85
+            });
+
+            $sashimi.makisu({
+                selector: 'dd',
+                overlap: 0.2,
+                speed: 0.5
+            });
+		
+	       
+
+            // Open all
+            
+            $( '.list' ).makisu( 'open' );
+
+            // Toggle on click
+
+            $( '.toggle' ).on( 'click', function() {
+                $( '.list' ).makisu( 'toggle' );
+            });
+
+            
+
+        } else {
+
+            $( '.warning' ).show();
+        }
+
+    </script>
+</body>
+</html>
