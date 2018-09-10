@@ -126,7 +126,11 @@
                 $( '.list' ).makisu( 'toggle' );
             });
 
-            
+            // Disable all links
+
+            $( '.demo a' ).click( function( event ) {
+                event.preventDefault();
+            });
 
         } else {
 
